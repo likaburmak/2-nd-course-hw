@@ -60,3 +60,42 @@ color: #FFFFFF;
 background: #9C0332;
 border-radius: 30px;
 }
+.catalog {
+    height: 556px;
+    background-image: url(image/catalogback.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.game {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    padding-top: 128px;
+}
+.game_item {
+width: 379px;
+height: 300px;
+background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0023.jpg);
+border-radius: 16px;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+color: #FFFFFF;
+display: flex;
+align-items: flex-end;
+}
+
+
+.game_item_1 {
+    background-image: url(image/game_1.jpg);
+}
+
+.game_item_2 {
+    background-image: url(image/game_2.jpg);
+    width: 378px;
+}
+.game_item_3 {
+    background-image: url(image/game_3.jpg);
+}
