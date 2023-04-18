@@ -38,3 +38,7 @@ alert(9 % 2);
 let age = prompt("Сколько вам лет?") 
 alert (age);
 
+//task 10
+let name= prompt ("Введите ваше имя?")
+alert (`Привет, ${name}!`);
+
