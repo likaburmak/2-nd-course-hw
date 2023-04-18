@@ -19,12 +19,17 @@ alert(nameCreatorJavaScript);
 //task 4
 let x = Number(10);
 let y = Number(2);
-alert(x+y);
-alert(x-y);
-alert(x*y);
-alert(x/y);
+alert(x + y);
+alert(x - y);
+alert(x * y);
+alert(x / y);
 
 //task 5
 
-let result =2 ** 5;
+let result = 2 ** 5;
 alert(result);
+
+//task 6
+
+alert(9 % 2);
+
