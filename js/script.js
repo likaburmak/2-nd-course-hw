@@ -24,3 +24,7 @@ alert(x-y);
 alert(x*y);
 alert(x/y);
 
+//task 5
+
+let result =2 ** 5;
+alert(result);
