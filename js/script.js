@@ -51,3 +51,15 @@ num /= 3;
 num++;
 num--;
 alert(num);
+
+//task 9
+let user = {
+name: 'Lika',
+age: 30,
+isAdmin: true,
+['city of residence']: 'Moscow',}
+user.age=29;
+delete user ['city of residence'];
+let info = prompt("Какую информацию хотите узнать пользователе?")
+alert (user[info]);
+
