@@ -26,3 +26,22 @@ if (d>100 || e>100) {
 let a = '2';
 let b = '3';
 alert (Number(2)+Number(3));
+
+//task 5
+let  monthNumber = Number(prompt('Введите номер месяца'));
+switch (monthNumber) {
+    case 12 || 1 || 2 :
+        console.log('Зима')
+        break;
+    case 3 || 4 || 5 :
+        console.log('Весна')
+        break;
+    case 6 || 7 || 8 :
+            console.log('Лето')
+            break;
+    case 9 || 10 || 11 :
+        console.log('Осень')
+        break;
+    default:
+        break;
+}
