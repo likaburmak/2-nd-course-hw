@@ -13,3 +13,12 @@ if (c>0 && c<10) {
 } else {
     console.log ('Неверно');
 }
+
+//task 3
+let d = Number(10);
+let e = Number(9);
+if (d>100 || e>100) {
+    console.log ('Верно')
+} else {
+    console.log ('Неверно');
+}
