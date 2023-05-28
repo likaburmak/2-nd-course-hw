@@ -8,40 +8,40 @@ if (password === 'skypro') {
 
 //task 2
 let c = Number(2);
-if (c>0 && c<10) {
-    console.log ('Верно');
+if (c > 0 && c < 10) {
+    console.log('Верно');
 } else {
-    console.log ('Неверно');
+    console.log('Неверно');
 }
 
 //task 3
 let d = Number(10);
 let e = Number(9);
-if (d>100 || e>100) {
-    console.log ('Верно')
+if (d > 100 || e > 100) {
+    console.log('Верно')
 } else {
-    console.log ('Неверно');
+    console.log('Неверно');
 }
 //task 4
 let a = '2';
 let b = '3';
-alert (Number(2)+Number(3));
+alert(Number(2) + Number(3));
 
 //task 5
-let  monthNumber = Number(prompt('Введите номер месяца'));
+let monthNumber = Number(prompt('Введите номер месяца'));
 switch (monthNumber) {
-    case 12 || 1 || 2 :
+    case 12: case 1: case 2:
         console.log('Зима')
         break;
-    case 3 || 4 || 5 :
+    case 3: case 4: case 5:
         console.log('Весна')
         break;
-    case 6 || 7 || 8 :
-            console.log('Лето')
-            break;
-    case 9 || 10 || 11 :
+    case 6: case 7: case 8:
+        console.log('Лето')
+        break;
+    case 9: case 10: case 11:
         console.log('Осень')
         break;
-    default:
+    default: console.log ('Такого месяца не существует')
         break;
 }
