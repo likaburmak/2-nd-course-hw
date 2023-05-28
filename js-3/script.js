@@ -42,6 +42,6 @@ switch (monthNumber) {
     case 9: case 10: case 11:
         console.log('Осень')
         break;
-    default: console.log ('Такого месяца не существует')
+    default: console.log('Такого месяца не существует')
         break;
 }
