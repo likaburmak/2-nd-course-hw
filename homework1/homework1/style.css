@@ -126,4 +126,14 @@ body {
     background-position: center;
     background-size: cover;
   }
+  .title {
+    width: 343px;
+    padding-top: 238.69px;
+    padding-bottom: 32.95px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+  }
 }/*# sourceMappingURL=style.css.map */
